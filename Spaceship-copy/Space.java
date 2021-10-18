@@ -28,11 +28,19 @@ public class Space extends World
     {
         Rocket rocket = new Rocket();
         addObject(rocket,240,215);
+
         Skull skull = new Skull();
         addObject(skull,525,262);
         Skull skull2 = new Skull();
         addObject(skull2,429,172);
-        Banana banana = new Banana();
-        addObject(banana,404,310);
+
+        Rhino rhino = new Rhino();
+        addObject(rhino, getWidth() / 2, getHeight() / 2);
+
+        Ballon ballon = new Ballon();
+        addObject(ballon, 42, getHeight() - 30);
+        //Banana banana = new Banana();
+        //addObject(banana,404,310);
+        
     }
 }
