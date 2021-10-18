@@ -32,5 +32,7 @@ public class Space extends World
         addObject(skull,525,262);
         Skull skull2 = new Skull();
         addObject(skull2,429,172);
+        Banana banana = new Banana();
+        addObject(banana,404,310);
     }
 }
